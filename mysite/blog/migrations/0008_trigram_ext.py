@@ -5,11 +5,8 @@ from django.db import migrations
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('blog', '0007_post_tags'),
+        ("blog", "0007_post_tags"),
     ]
 
-    operations = [
-        TrigramExtension()
-    ]
+    operations = [TrigramExtension()]
